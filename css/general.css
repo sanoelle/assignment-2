@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*responsive setup*/
+@-moz-viewport{ width: device-width; scale: 1;} /*mozilla*/
+@-ms-viewport{ width: device-width; scale: 1;} /*microsoft*/
+@-o-viewport{ width: device-width; scale: 1;} /*opera*/
+@-webkit-viewport{ width: device-width; scale: 1;} /*safari*/
+@viewport{ width: device-width; scale: 1;} /*all other web browswers must go before the regular viewport!*/
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-text-size-adjust: 100%;
+}
+
+/*CSS*/
+
+html, body{
+	width: 100%;
+	font-family: sans-serif;
+	margin-top: -1rem;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+img{
+	width: 100%;
+}
+
+header{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:13.5px;
+	line-height: 29px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.masthead{
+	height: 14rem;
+	background-color:#CCC;
+	padding-top:4rem;
+}
+
+.logo{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 5rem;
+}
+	
+.bar{
+	background-color:#333;
+	height: 3rem;
+	width: 100%;
+	margin-top:0rem;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.about{
+	line-height: 1rem;
+	text-align:center;
+	font-weight:bold;
+	margin-top: 1rem;
+}
+
+.info{
+	margin-top: 1rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+footer{
+	text-align:center;
+	font-size: 12px;
+}
+
+main{
+	width: 90%;
+	margin: 0 5%; 
+}
+
+
+
